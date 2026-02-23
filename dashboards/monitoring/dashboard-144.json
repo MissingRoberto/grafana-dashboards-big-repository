@@ -1,0 +1,23 @@
+{
+  "uid": "monitoring-dashboard-144",
+  "title": "umonitoring Dashboard 144",
+  "tags": ["monitoring", "generated", "load-test"],
+  "timezone": "browser",
+  "schemaVersion": 38,
+  "version": 1,
+  "refresh": "30s",
+  "panels": [
+    {
+      "id": 1,
+      "title": "Panel 144",
+      "type": "graph",
+      "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0},
+      "targets": [
+        {
+          "expr": "rate(cpu_usage_total[5m])",
+          "refId": "A"
+        }
+      ]
+    }
+  ]
+}

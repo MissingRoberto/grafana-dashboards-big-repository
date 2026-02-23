@@ -1,0 +1,23 @@
+{
+  "uid": "infrastructure-dashboard-61",
+  "title": "uinfrastructure Dashboard 61",
+  "tags": ["infrastructure", "generated", "load-test"],
+  "timezone": "browser",
+  "schemaVersion": 38,
+  "version": 1,
+  "refresh": "30s",
+  "panels": [
+    {
+      "id": 1,
+      "title": "Panel 61",
+      "type": "graph",
+      "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0},
+      "targets": [
+        {
+          "expr": "rate(server_health_total[5m])",
+          "refId": "A"
+        }
+      ]
+    }
+  ]
+}

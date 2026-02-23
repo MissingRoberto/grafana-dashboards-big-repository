@@ -1,0 +1,23 @@
+{
+  "uid": "business-dashboard-97",
+  "title": "ubusiness Dashboard 97",
+  "tags": ["business", "generated", "load-test"],
+  "timezone": "browser",
+  "schemaVersion": 38,
+  "version": 1,
+  "refresh": "30s",
+  "panels": [
+    {
+      "id": 1,
+      "title": "Panel 97",
+      "type": "graph",
+      "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0},
+      "targets": [
+        {
+          "expr": "rate(revenue_total[5m])",
+          "refId": "A"
+        }
+      ]
+    }
+  ]
+}
